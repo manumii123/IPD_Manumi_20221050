@@ -1,5 +1,7 @@
 # IPD_Manumi_20221050
 Fraud Detection with financial transactions
+
+
 Project Overview
 
 This project develops a high-performance machine learning model to detect fraudulent financial transactions. Using the synthetic dataset (6.3 million records), the system addresses extreme class imbalance and identifies key behaviorals of fraud.
