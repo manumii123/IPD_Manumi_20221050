@@ -15,7 +15,7 @@ CSV File- Due to file size limitations, the Fraud.csv dataset is not hosted in t
 It can be downloaded from Kaggle: https://www.kaggle.com/datasets/chitwanmanchanda/fraudulent-transactions-data
 
 Key Features of the Prototype
-Optimized Loading: Uses chunksize processing to handle 6M+ rows without memory crashes but for further data sampling around 500,000 records are taken.
+Optimized Loading: Uses chunksize processing to handle 6M+ rows without memory crashes but for further data sampling ,stratified sampling is performed in which around 500,000 records are used as a subset.
 
 Feature Engineering: Includes custom logic like errorBalance (detecting discrepancies in transaction math) and hour (temporal analysis).
 
